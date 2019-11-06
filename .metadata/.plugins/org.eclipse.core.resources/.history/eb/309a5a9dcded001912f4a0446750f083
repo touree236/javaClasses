@@ -1,0 +1,15 @@
+package com.syntax.class2review;
+
+public class ForLoopPractice {
+	public static void main(String[] args) {
+		
+		// print even number form 20 to 1 ( 2 way) 
+		
+		for( int i=20; i>=0; i--) {
+			System.out.println(i);
+		}
+		
+	}
+	
+
+}

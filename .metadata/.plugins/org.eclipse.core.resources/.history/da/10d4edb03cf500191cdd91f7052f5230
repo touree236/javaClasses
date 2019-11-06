@@ -1,0 +1,24 @@
+package com.syntax.class10;
+
+public class quizA {
+	
+	   public static void main(String s[]) {
+	
+		   int k=3, tot=0;
+
+		   do{
+
+		      tot=tot+k;
+
+		      k++;
+
+		   } while(k<11);
+
+		   System.out.print(tot);
+
+		 
+
+		    }
+		
+		}
+

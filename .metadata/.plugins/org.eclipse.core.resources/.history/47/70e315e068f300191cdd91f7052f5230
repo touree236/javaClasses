@@ -1,0 +1,38 @@
+package com.syntax.class10;
+
+public class arrayTaskcountries {
+	public static void main(String[] args) {
+		
+		
+//Create an array of countries. While retrieving all values from an array print capital for each country.
+		
+		
+		String [] country= {"USA","Jordan","Iraq","Turky","lebanon"};
+		
+	for (int i=5;i<country.length;i++) {
+
+		if(country[i].equals("USA")) {
+		System.out.println("Washington D.C");
+		if(country[i].equals("Jordan")) {
+		System.out.println("Amman");
+		if(country[i].equals("Iraq")) {
+		System.out.println("Bagdad");
+		if(country[i].equals("Turky")) {
+		System.out.println("Ankara");
+		if(country[i].equals("Lebanon")) {
+		System.out.println("bayrout");
+		}else {
+			System.out.println(country[i]);
+	}
+		
+		
+	}
+	
+	}
+
+			}
+		}
+	}
+	}
+}
+

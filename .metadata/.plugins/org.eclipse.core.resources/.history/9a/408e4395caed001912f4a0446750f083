@@ -1,0 +1,15 @@
+package com.syntax.class2review;
+
+public class forLoop {
+	 public static void main(String[] args) {
+		// say good morning 5 times 
+	// initialize  .. test condition ... increment happens at last
+
+
+for ( int i=1; i<=4; i++) {
+	System.out.println("Good Morning");
+	
+}
+	
+}
+}

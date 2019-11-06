@@ -1,0 +1,34 @@
+package com.class14;
+
+public class interviewjAvaquestion {
+	
+	public static void main(String[] args) {
+		
+	int x=10;
+	int y=5;
+	
+	x=x+y;
+	y=x-y;
+	x=x-y;
+	
+		System.out.println(x);
+		System.out.println(y);
+		
+		//System.out.println(" x was =10 and now x= "+x); or you can print it this way 
+		//	System.out.println("y was =5 and now y="+y);
+		System.out.println("********************");
+		
+		
+		
+		String str1="Moe";
+		String str2="Hawa";
+		
+		System.out.println("Before swap" + str1 + " " + str2);
+				str1=str1+str2 ;
+		str2=str1.substring(str1.length()- str2.length());
+	
+	}
+	
+	
+
+}

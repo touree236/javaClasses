@@ -1,0 +1,22 @@
+package com.syntax.class2review;
+
+import java.util.Scanner;
+
+public class breakAndcontTask2 {
+	
+	public static void main(String[] args) {
+		
+		// create a program that will be asking User to apply for a cr card 10 times 
+		// as soon you get "yes " from a user program should stop asking 
+		
+		Scanner scan=new Scanner(System.in);
+		
+		for (int a=1; a<20; a++) {
+			if ( a==1 || a==10) {
+				break;
+			}
+			System.out.println(a);
+	}
+
+	}
+}

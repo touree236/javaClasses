@@ -1,0 +1,20 @@
+package com.syntax.class2review;
+
+public class LoopTask {
+	public static void main(String[] args) {
+		
+	/*
+	 * write a code to find the sum of even and odd numbers 
+	 * form range 1-20
+	 * expecting 2 outputs 
+	 * sum for odd number =.....
+	 * sum of even numbers =.........
+	 */
+		
+		int sum= 0;
+		for( int i=1; i<=20; i++) {
+		sum= sum + i;
+	}
+	
+	}
+}

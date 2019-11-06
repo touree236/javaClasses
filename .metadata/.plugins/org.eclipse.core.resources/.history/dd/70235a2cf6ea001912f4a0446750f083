@@ -1,0 +1,52 @@
+package com.class4Review;
+
+import java.util.Scanner;
+
+public class nextedIfCarTask {
+	
+	public static void main(String[] args) {
+		
+	}
+
+	// Write a program with one int value for salary and four String values for
+	// different cars
+	// If you make over 50000 a year, you may buy a brand new car otherwise you
+	// should buy a used car. For those you can afford a new car there are different
+	// price ranges
+	// I want anything under 70k to be Audi A5
+	// I want anything under 80k to be Mercedes-Benz
+	// I want anything under 90k to be Jaguar
+	// I want anything under 100k to be Tesla
+	// And if you make less than 60k output to read "Save up money and wait until
+	// next year"
+
+	int salary;
+	
+	string car1,car2,car3,car4;
+	
+    car1="AudiA5";
+    car2="Bens";
+    car3="Jaguar";
+    car4="Tesla";
+    
+    int salary=scan.nextInt();
+      
+    if (salary>=50000) {
+        System.out.println("you may buy a brand new car");
+        if (salary<=70000) {
+            car1="Audi5";
+        }if (salary>=70000 && salary<80000) {
+            car="Mercedes-Benz";
+        }if (salary>=80000 && salary<90000) {
+            car="Jaguar";
+        }if (salary>=90000 && salary<10000) {
+            car="Tesla";
+        }if (salary<60000) {
+            System.out.println("Save up money until next year");
+        }
+    }else {
+        System.out.println("you should buy a used car");
+    }
+    System.out.println("I want to buy a "+car);
+}
+}

@@ -1,0 +1,21 @@
+package com.syntax.class10;
+
+public class arrayclassPratiice {
+	
+	public static void main(String[] args) {
+	
+		
+		String[] names=new String[3];
+		names[0]= "Dinan";
+		names[1]="Hatem";
+		names[2]="Moe";
+		names[3]="keiven";
+		names[4]="Calio";
+		
+		System.out.println(names.length);
+		System.out.println(names[2]);
+	}
+	
+	
+
+}

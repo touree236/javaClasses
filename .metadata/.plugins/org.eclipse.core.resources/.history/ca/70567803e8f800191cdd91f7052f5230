@@ -1,0 +1,57 @@
+package arrayManipilation;
+
+public class StringManipulation {
+	
+	public static void main(String[] args) {
+		// string is a sequance of char and its a java class and it non premitave 
+		// strings are objects every string that you will crates is actullay an object  
+		
+	
+		//1 
+		// called String literal 
+		String name="John";
+		System.out.println(name);
+		System.out.println(name.length());
+		
+		//2 
+		// Creating String with new key word
+		String name1=new String("Jone1");
+		System.out.println(name1);
+		
+		/*
+		 * this method returns the length of this string 
+		 * the length is equal to the number of the 16 bit Unicode
+		 * character in the string
+		 */
+		 int name1length=name.length();
+		 System.out.println("The length of name1length is = "+ name1length);
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		
+		
+		
+	}
+	
+	
+
+}

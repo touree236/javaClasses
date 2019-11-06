@@ -1,0 +1,26 @@
+package com.class13;
+
+public class RgularExperssionNov2 {
+public static void main(String[] args) {
+	
+String str="1234Hel45645lo465456";	
+
+System.out.println(str.replaceAll("[0-9]",""));// from 0 to 9 remove evey thing and replace it with nothing ""
+System.out.println(str.replaceAll("[ ^ [a-zA-Z]","")); // using ^ will remover all the letters upper and lower
+                          
+System.out.println("----------------");
+
+
+// case and not the text 
+
+	String str2="Hi@%$&$*345678";
+    System.out.println(str.replaceAll("[^a-zA-Z0-9]","")); // print ever thing but not the letters and number 
+
+	
+	
+	
+	
+	
+	
+}
+}

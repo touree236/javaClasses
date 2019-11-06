@@ -1,0 +1,29 @@
+package com.class2;
+
+public class Variables {
+	
+
+	public static void main (String[] args){
+		
+		String studentname="Moe";
+		String Lastname="Yahoodi";
+		char studnentgrade='A';
+		String studentcity="Centreville";
+		String studentstate="VA";
+		long studentphoneNumber="1234567890"; 
+		
+		//String studentCity="Washtington DC";// we do not need to declare 
+		//variable again 
+		studentCity="Washington DC";
+		studentState="DC";
+		studentPhoneNumber="(571)259-7369";
+		StudnentGrades='A';
+		
+		System.out.println("studentgrade");
+				
+		
+		
+		
+		
+  }
+}

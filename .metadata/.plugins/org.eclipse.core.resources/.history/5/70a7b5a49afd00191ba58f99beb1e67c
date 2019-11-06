@@ -1,0 +1,22 @@
+package com.class13;
+
+public class ReplaceMethodNov2 {
+private void mian() {
+	
+	// .replace90
+	// this method returns a new string resulting from replacing all occurrence of oldChar in this string with newChar
+		
+	String str="Hello Dear, how are you, How you been";
+	
+	System.out.println(str.replace('n', 'z'));
+	System.out.println(str.replace("---------------------------"));
+	System.out.println(str.replace("Dear", "Respected")); // you can change a sequance of Char
+	
+	
+}
+
+
+
+
+
+}

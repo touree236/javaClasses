@@ -1,0 +1,21 @@
+package com.syntax.class2review;
+
+import java.util.Scanner;  // also you can use  jave.until.*/
+
+public class scannerDimoreview {
+	
+public static void main(String[] args) {
+	
+	
+	Scanner Scan=new Scanner(System.in);
+	System.out.println("Please enter your name");
+	String name=Scan.nextLine(); // to type on the same line you have to write name=Scan
+	System.out.println("Your name is "+name);
+
+	
+	
+	
+}
+
+}
+

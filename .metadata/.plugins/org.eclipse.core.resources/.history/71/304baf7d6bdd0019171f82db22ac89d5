@@ -1,0 +1,36 @@
+package com.class2;
+
+public class Task2 {
+	/*
+	 * Write a Java program to add, subtract, multiply and divide 2 decimal values. 
+	 * Your program should say. “The _______ of 2 numbers ___ and ___ is equal to _____”
+	 */
+
+	
+	
+
+double num1=1.99;
+double num2=22.99;
+
+double sum=num1+num2;
+double sub=num1-num2;
+double mult=num1*num2;
+double div=num1/num2;
+
+
+
+public static void main (String[] args) {
+	int width=5;
+    int height=8;
+	
+	int area=width*height;
+	int perimeter=2*(width+height);
+	
+	/*
+	 * 
+	 */
+	
+	System.out.println("The oerimiter ofrectangel with width"=with="and height"+height+"is equal to "perimiter+"and the area is " +area);
+	
+	String messege="The oerimiter ofrectangel with width"+with+"and height\"+height+\"is equal to \"perimiter+\"and the area is \" +area);"
+}

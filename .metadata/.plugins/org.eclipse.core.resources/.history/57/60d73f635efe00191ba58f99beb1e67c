@@ -1,0 +1,24 @@
+package com.class14;
+
+public class SplitMethodStringNov3 {
+	
+	public static void main(String[] args) {
+		
+		// this method splits this string around matches of the giving regular expression 
+		
+		
+		// split the following string into array of strings/work
+		
+		String str="Vedio provides a powerful way to help you prove your point";
+		
+		String [] array=str.split(" ");
+		
+		for (int i=0; i<array.length; i++) {
+			System.out.println(array[i]);
+			
+			
+		}
+		
+	}
+
+}

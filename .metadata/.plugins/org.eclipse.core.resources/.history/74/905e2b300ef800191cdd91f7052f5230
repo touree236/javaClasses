@@ -1,0 +1,31 @@
+package arrayManipilation;
+
+import java.util.Arrays;
+
+public class class11ArryManipulation {
+	private static int[] actualNames;
+
+	public static void main(String[] args) {
+		
+		
+		String []actuallNames = {"Moe", "Smith", "Alex","Jack"};
+		String [] expectedNames= {"Jack","Moe","Alex","Smith"};
+		
+		Arrays.sort(actualNames);
+		
+		System.out.println(Arrays.toString(actualNames));
+		Arrays.sort(expectedNames);
+		
+		String actual=Arrays.toString(actualNames);
+		String expected=Arrays.toString(expectedNames); 
+		
+		System.out.println(actual.equals(expected));
+		
+		
+
+		
+		
+		
+	}
+
+}

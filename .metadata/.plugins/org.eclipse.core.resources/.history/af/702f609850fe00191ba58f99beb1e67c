@@ -1,0 +1,26 @@
+package com.class13;
+
+public class recap2Nov2 {
+	
+	private void mian() {
+	
+		
+		String str1="Hello";   // 2 ways to create string ,  string literal 
+		String str2="Hello";  // and new keyword  
+		                                   
+		String str3 =new String ("Bye");   
+		String str4 =new String ("Bye");
+														// what is the differance between == and .equal method ( 
+		System.out.println(str1.contentEquals(str2));  // .equal comparing the contact and saying the contact are equal
+		  System.out.println(str3==str4);             // == it compares the objects and it is not pointing to the same  
+			                    
+		                                               
+		
+		
+
+	}
+	
+	
+	
+
+}

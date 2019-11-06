@@ -1,0 +1,37 @@
+package arrayManipilation;
+
+public class TaskOf2dArray {
+	
+	
+	public static void main(String[] args) {
+		
+		//Create a 2D array of integer type with 3 rows and 4 columns and print all values of the whole array.
+			
+			int[][] numbers= {
+					
+					{8,7,5,3,},
+					{1,5,6,4,},
+					{3,6,8,0,},
+			}; 
+			
+			
+			int lenghtOfRows=numbers.length;
+				
+					int lenthOfColumns=numbers[1].length;
+				System.err.println(lenthOfColumns);
+					
+					for (int getArrays[]:numbers) {  //   this step will allow you to do 2D 
+						
+						for (int getnumbers: getArrays) {
+						System.out.println(getnumbers+" ");	
+						}
+							System.out.println();
+					}
+
+		}
+
+	
+	
+	
+
+}

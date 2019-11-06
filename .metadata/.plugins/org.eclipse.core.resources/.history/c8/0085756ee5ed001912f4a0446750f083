@@ -1,0 +1,17 @@
+package com.syntax.class2review;
+
+public class breakAndContinueTask {
+	
+	public static void main(String[] args) {
+		// print number form 1-50 expect those that are divisible by 3 
+		
+		
+		for (int i=1; i>=50; i++)
+			for (int a=1; a<20; a++) {
+				if ( a==5||a==6||a==7) {
+					break;
+				}
+		
+	}
+
+}

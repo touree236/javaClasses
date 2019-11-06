@@ -1,0 +1,27 @@
+package com.syntax.class4;
+
+public class nestedloopnumber {
+
+
+	public static void main(String[] args) {
+		
+	//print 
+	/*
+	 * 12345
+	 * 12345
+	 * 12345
+	 * 12345
+	 */
+		
+			 for( int r=1; r<5; r++) {// r for rows 
+			 
+			 for (int c=0;c<10; c++) {// c for cols 
+				 System.out.print(c);
+				
+			 }
+			 System.out.println();
+
+	}
+
+}
+}

@@ -1,0 +1,48 @@
+package com.class14;
+
+public class task {
+public static void main(String[] args) {
+	
+	
+	// Task 1 
+	//Create a String that will hold a sentence.
+	//Write a program to get a new String without any spaces.
+	
+	String str=" I was bron in Jerusalem. I lived there until college. then I moved to the USA";
+	
+	
+	
+	String array=str.replace(" ","");
+	
+		System.out.println(array);
+		
+	System.out.println("********************");
+	
+	
+	
+//	// Task 2 
+//	//Create a String that should be combination of letters, numbers and special characters. 
+//	//Find out how many alpha characters are there in the String. 
+	
+	String str1="Hateyahabibi@#$%@&";
+	
+	System.out.println(str1.replaceAll("[^A-z]", ""));
+	System.out.println(str1.length());
+	System.out.println("********************");
+	
+	//Task 3
+	//You have a String a=”Is it saturday? Is it raining? Do we have a Java Class today?
+    //” How would you find out how many sentences are in that String?
+
+    String str2="Is it saturday? Is it raining? Do we have a Java Class today?";
+	String[] b=str2.split("\\?");
+	System.out.println(b.length);
+
+	
+	
+	
+	
+	
+	}
+
+}

@@ -1,0 +1,37 @@
+package com.class4Review;
+
+import java.util.Scanner;
+
+public class assignments {
+	
+	public static void main (String [] args){
+		
+		Scanner scan=new Scanner(System.in);
+		
+		String weekend;
+		boolean subject;
+
+		System.out.println("Is it weekend");
+		weekend=scan.nextLine();
+		System.out.println("Today you will be learning");
+		subject=scan.nextBoolean();
+
+		
+		//Prompt user with a question: "Is it weekend?"
+		//If it is not a weekend --> subject="Manual testing"
+		//		Otherwise --> subject="Java"
+		
+		if (!(weekend){
+		     subject="Manual Testing";
+		  }else {
+		     subject="Java";
+		     
+		   }System.out.println("Today you will be learning"+ subject);
+		 }
+			
+		
+			}
+
+			
+			   
+		

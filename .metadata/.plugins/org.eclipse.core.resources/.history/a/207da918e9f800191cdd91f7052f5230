@@ -1,0 +1,30 @@
+package arrayManipilation;
+
+public class StringToEndofAnother {
+public static void main(String[] args) {
+	// very impotrant methed
+	
+	String str3="Hello";
+	String str4="World";
+	
+	
+	
+	System.out.println(str3+str4);    // when you concatinate use space in the string after "Hello " or before " World"
+	System.out.println(str3.concat(" "+str4));
+	
+	
+	// This method returns a copy of strings with leading and trailing White spaces omitted  
+
+String str6="How are you?";
+System.out.println(str6.trim());  // white space trim any extras in the word ,, in the begining or the end of the word
+	
+
+// This Method returns the character located at the strings specified index
+// the string indexes start from zero. 
+
+String str7="We might be done early today";
+System.out.println(str7.charAt(7)); 
+
+
+}
+}
