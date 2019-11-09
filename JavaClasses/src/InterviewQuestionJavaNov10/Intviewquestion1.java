@@ -33,6 +33,6 @@ public class Intviewquestion1 {
 	           str1=str1.substring(str2.length());
 	           System.out.println("after swap " + str1 + "  " + str2);
 	
-	System.out.println("********************");
+	
 	}
 }
