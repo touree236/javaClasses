@@ -1,5 +1,7 @@
 package com.class14;
 
+import java.util.Arrays;
+
 public class interviewjAvaquestion {
 	
 	public static void main(String[] args) {
@@ -7,30 +9,31 @@ public class interviewjAvaquestion {
 		//1. write a program to swap 2 numbers without a temporary variable?
 		//Swap 2 string without a temporary variable
 		
-	int x=10;
+	int x=10;   /// arthmatic apporation 
 	int y=5;
 	
-	x=x+y;
-	y=x-y;
-	x=x-y;
+	x=x+y;  // x=10+20= 30 
+	y=x-y;  // y=30-20=10
+	x=x-y;  // x=30-10=20
 	
-		System.out.println(x);
-		System.out.println(y);
+		System.out.println("The value of x="+x);  
+		System.out.println("The value of x="+y);
 		
 		//System.out.println(" x was =10 and now x= "+x); or you can print it this way 
 		//	System.out.println("y was =5 and now y="+y);
 		System.out.println("********************");
 		
-		
-		
+
 		String str1="Moe";
 		String str2="Hawa";
+		str1=str1+str2; // MoeHawa // we have to contactinate 
+		
 		
 		System.out.println("Before swap " + str1 + " " + str2);
 				str1=str1+str2 ;
-		str2=str1.substring(0,str1.length()- str2.length());
-	str1=str1.substring(str2.length());
-	System.out.println("after swap " + str1 + "  " + str2);
+		       str2=str1.substring(0,str1.length()- str2.length());
+	           str1=str1.substring(str2.length());
+	           System.out.println("after swap " + str1 + "  " + str2);
 	
 	System.out.println("********************");
 	
@@ -39,23 +42,32 @@ public class interviewjAvaquestion {
 	//Find a java program to find the second largest in the array and minimum number in the array? 
 
     
-    int arr[] = { 14, 46, 47, 86, 92, 52, 48, 36, 66, 85 };
-    int largest = arr[0];
-    int secondLargest = arr[0];
+    //int [] arrays= { 100,-90, 8787,898,0,1,-90,8787 };
+    // easiest way sort way 
+    //Arrays.sort(array);
+   // int min=array[0];
+    // int max=array[array.length-1];
+  //   System.out.println(min);
+  //  System.out.println(max);
     
-    System.out.println("The given array is:" );
-    for (int i = 0; i < arr.length; i++) {
-        System.out.print(arr[i]+"\t"); // for the space use \t
-    }
-    for (int i = 0; i < arr.length; i++) {
-        if (arr[i] > largest) {
-            secondLargest = largest;
-            largest = arr[i];
-        } else if (arr[i] > secondLargest) {
-            secondLargest = arr[i];
+    // or use the second way  // if the interviewer asks us not to use sort way 
+    
+    int nums[] = { 100,-90, 8787,898,0,1,-90,8787 };
+    int large=nums[0];  // use the for loop to solve this problem 
+    int secondlargest = nums[0];
+ 
+    for (int i = 0; i < nums.length; i++) {
+    	
+        if (nums[i] > large) {
+        	secondlargest = large;
+        	large = nums[i];
+        } if (nums[i] > secondlargest && nums[i]<large) { // in order for this to work we have to put a second condition 
+        	
+        	secondlargest = nums[i];
         }
     }
-    System.out.println("\nSecond largest number is:" + secondLargest);// \n to print the second line 
+    System.out.println("\n Second largest number is:" + secondlargest);// \n to print the second line 
+    
     System.out.println("***************************");
     
     //Question # 3
@@ -63,7 +75,8 @@ public class interviewjAvaquestion {
     //Find out how many alpha characters present in a string?
     
     
-String str4="Java is hard, but we can learn it";
+    String str4="Java is hard,123498763 but we can learn it";
+   str4.replaceAll("[^A-Za-z]", str4);
 	System.out.println(str4.length());
 	
 	System.out.println("********************");
@@ -73,11 +86,10 @@ String str4="Java is hard, but we can learn it";
 	
 	String str="We have Java class on Saturdays and Sundays";
     String[] arr1=str.split(" ");
-    for (int i = 0; i < arr1.length; i++) {
-    }
-    for (int i = arr.length-1;i>=0; i--) {
-    System.out.print(arr[i]+" ");
-System.out.println("**************************");
+    
+    System.out.print(arr1[i]+" ");
+    
+   System.out.println("**************************");
 
 	
 	//Question # 5 
@@ -139,6 +151,7 @@ System.out.println("******************************");
 	
 	//Question #8 
 	//Write a Java Program to print first 10 numbers of Fibonacci series.
+//The Fibonacci sequence: 0, 1, 1, 2, 3, 5, 8, 13, 21
 
     int n = 10, t1 = 0, t2 = 1;
     System.out.print("First " + n + " terms: ");
