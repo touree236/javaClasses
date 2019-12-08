@@ -6,7 +6,7 @@ public class OOPSConceptinJava {
 	public static void main(String[] args) {
 		
 		
-	// class in java: is a template or is a user defined blue print from whicn bojects are created
+	// class in java: is a template or is a user defined blue print from which objects are created
 		//see the ex, below. 
 	
 		// car : features / attributes of the car : whiles . ties , windows , engine , doors , steering wheel

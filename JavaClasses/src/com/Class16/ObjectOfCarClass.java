@@ -14,10 +14,7 @@ public static void main(String[] args) {
     car1.color="Black";
     car1.wheels=4;
 	  car1.windows=5;
-			
-	  
-	  
-	  
+	
 	  System.out.println("-----------------");
 	  
 	     Car car2=new Car();
